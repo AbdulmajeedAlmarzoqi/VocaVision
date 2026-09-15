@@ -1,0 +1,29 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+*.mobileprovision
+*.p12
+
+# Per-developer signing (see Configuration/Signing.xcconfig)
+Configuration/Local.xcconfig
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Editors
+.vscode/
+.idea/

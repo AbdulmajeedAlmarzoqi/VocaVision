@@ -1,0 +1,11 @@
+/* Camera permission usage description */
+"NSCameraUsageDescription" = "VocaVision uses the camera so Voca can describe what's around you during the live call.";
+
+/* Microphone permission usage description */
+"NSMicrophoneUsageDescription" = "VocaVision uses the microphone so you can talk to Voca and interrupt her in real time.";
+
+/* Motion permission usage description */
+"NSMotionUsageDescription" = "VocaVision uses the motion sensor to pick the right moments to send a new camera frame.";
+
+/* Display name shown under the app icon */
+"CFBundleDisplayName" = "VocaVision";

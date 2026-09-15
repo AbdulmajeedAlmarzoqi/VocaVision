@@ -1,0 +1,4 @@
+// Copy this file to Local.xcconfig (ignored by git) and fill in your
+// team. Xcode → Settings → Accounts shows the Team ID next to your
+// membership; it is a 10-character string.
+DEVELOPMENT_TEAM = ABCDE12345

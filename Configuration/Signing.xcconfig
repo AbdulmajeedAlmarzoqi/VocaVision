@@ -1,0 +1,8 @@
+// Code-signing settings are per developer and are never committed.
+//
+//   cp Configuration/Local.example.xcconfig Configuration/Local.xcconfig
+//
+// then put your Apple Developer Team ID in Local.xcconfig. The include
+// below is optional, so a fresh clone still builds for the simulator
+// without it.
+#include? "Local.xcconfig"

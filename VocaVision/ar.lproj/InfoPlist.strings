@@ -1,0 +1,11 @@
+/* Camera permission usage description */
+"NSCameraUsageDescription" = "يستخدم VocaVision الكاميرا لتصف لك Voca ما حولك أثناء المكالمة المباشرة.";
+
+/* Microphone permission usage description */
+"NSMicrophoneUsageDescription" = "يستخدم VocaVision الميكروفون لتتمكّن من التحدّث إلى Voca ومقاطعتها في الوقت الفعليّ.";
+
+/* Motion permission usage description */
+"NSMotionUsageDescription" = "يستخدم VocaVision مستشعر الحركة ليختار اللحظات المناسبة لإرسال إطارٍ جديدٍ للكاميرا.";
+
+/* Display name shown under the app icon */
+"CFBundleDisplayName" = "VocaVision";

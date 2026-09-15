@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2010001000000000000A001 /* VocaVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010001000000000000A001 /* VocaVisionApp.swift */; };
+		B2010002000000000000A001 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010002000000000000A001 /* RootView.swift */; };
+		B2010003000000000000A001 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010003000000000000A001 /* AppTheme.swift */; };
+		B2010004000000000000A001 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010004000000000000A001 /* OnboardingView.swift */; };
+		B2010005000000000000A001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010005000000000000A001 /* HomeView.swift */; };
+		B2010006000000000000A001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010006000000000000A001 /* SettingsView.swift */; };
+		B2010007000000000000A001 /* APIKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010007000000000000A001 /* APIKeyStore.swift */; };
+		B2010008000000000000A001 /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010008000000000000A001 /* CallView.swift */; };
+		B2010009000000000000A001 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010009000000000000A001 /* CameraPreviewView.swift */; };
+		B201000A000000000000A001 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101000A000000000000A001 /* CallViewModel.swift */; };
+		B201000B000000000000A001 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101000B000000000000A001 /* CameraService.swift */; };
+		B201000C000000000000A001 /* MotionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101000C000000000000A001 /* MotionService.swift */; };
+		B201000D000000000000A001 /* CallAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101000D000000000000A001 /* CallAudioEngine.swift */; };
+		B201000E000000000000A001 /* GeminiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101000E000000000000A001 /* GeminiClient.swift */; };
+		B201000F000000000000A001 /* SpeechFeedbackOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101000F000000000000A001 /* SpeechFeedbackOrchestrator.swift */; };
+		B2010012000000000000A001 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010014000000000000A001 /* Permissions.swift */; };
+		B2010013000000000000A001 /* GeminiLiveClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010015000000000000A001 /* GeminiLiveClient.swift */; };
+		B2010014000000000000A001 /* DiagnosticsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010016000000000000A001 /* DiagnosticsLog.swift */; };
+		B2010015000000000000A001 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010017000000000000A001 /* DiagnosticsView.swift */; };
+		B2010017000000000000A001 /* Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010019000000000000A001 /* Customization.swift */; };
+		B2010018000000000000A001 /* CustomizationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101001A000000000000A001 /* CustomizationViews.swift */; };
+		B2010019000000000000A001 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101001B000000000000A001 /* L10n.swift */; };
+		B201001A000000000000A001 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B401000B000000000000A001 /* InfoPlist.strings */; };
+		B2010010000000000000A001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1010010000000000000A001 /* Assets.xcassets */; };
+		B2010011000000000000A001 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1010011000000000000A001 /* Preview Assets.xcassets */; };
+		B2010020000000000000A001 /* PlaybackRingBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010020000000000000A001 /* PlaybackRingBuffer.swift */; };
+		B2010021000000000000A001 /* MicPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010021000000000000A001 /* MicPipeline.swift */; };
+		B2010022000000000000A001 /* LiveMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010022000000000000A001 /* LiveMessages.swift */; };
+		B2010023000000000000A001 /* LiveSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010023000000000000A001 /* LiveSocket.swift */; };
+		B2010041000000000000A001 /* VoiceDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010041000000000000A001 /* VoiceDirectory.swift */; };
+		B2010024000000000000A001 /* CallSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010024000000000000A001 /* CallSessionController.swift */; };
+		B2010030000000000000A001 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B1010030000000000000A001 /* PrivacyInfo.xcprivacy */; };
+		B2010025000000000000A001 /* Announce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010025000000000000A001 /* Announce.swift */; };
+		B2010026000000000000A001 /* DataSharingConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010026000000000000A001 /* DataSharingConsentView.swift */; };
+		B2010027000000000000A001 /* SceneChangeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010027000000000000A001 /* SceneChangeDetector.swift */; };
+		B2010028000000000000A001 /* ScreenWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1010028000000000000A001 /* ScreenWatcher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1010001000000000000A001 /* VocaVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocaVisionApp.swift; sourceTree = "<group>"; };
+		B1010002000000000000A001 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B1010003000000000000A001 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		B1010004000000000000A001 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B1010005000000000000A001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1010006000000000000A001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1010007000000000000A001 /* APIKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyStore.swift; sourceTree = "<group>"; };
+		B1010008000000000000A001 /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		B1010009000000000000A001 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		B101000A000000000000A001 /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
+		B101000B000000000000A001 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		B101000C000000000000A001 /* MotionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionService.swift; sourceTree = "<group>"; };
+		B101000D000000000000A001 /* CallAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAudioEngine.swift; sourceTree = "<group>"; };
+		B101000E000000000000A001 /* GeminiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiClient.swift; sourceTree = "<group>"; };
+		B101000F000000000000A001 /* SpeechFeedbackOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechFeedbackOrchestrator.swift; sourceTree = "<group>"; };
+		B1010014000000000000A001 /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		B1010015000000000000A001 /* GeminiLiveClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiLiveClient.swift; sourceTree = "<group>"; };
+		B1010016000000000000A001 /* DiagnosticsLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsLog.swift; sourceTree = "<group>"; };
+		B1010017000000000000A001 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		B1010019000000000000A001 /* Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customization.swift; sourceTree = "<group>"; };
+		B101001A000000000000A001 /* CustomizationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationViews.swift; sourceTree = "<group>"; };
+		B101001B000000000000A001 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		B101001C000000000000A001 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B101001D000000000000A001 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1010010000000000000A001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1010011000000000000A001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1010012000000000000A001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1010013000000000000A001 /* VocaVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocaVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1010020000000000000A001 /* PlaybackRingBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackRingBuffer.swift; sourceTree = "<group>"; };
+		B1010021000000000000A001 /* MicPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicPipeline.swift; sourceTree = "<group>"; };
+		B1010022000000000000A001 /* LiveMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMessages.swift; sourceTree = "<group>"; };
+		B1010023000000000000A001 /* LiveSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSocket.swift; sourceTree = "<group>"; };
+		B1010050000000000000A001 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		B1010051000000000000A001 /* Local.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Local.example.xcconfig; sourceTree = "<group>"; };
+		B1010041000000000000A001 /* VoiceDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceDirectory.swift; sourceTree = "<group>"; };
+		B1010024000000000000A001 /* CallSessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSessionController.swift; sourceTree = "<group>"; };
+		B1010030000000000000A001 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B1010025000000000000A001 /* Announce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announce.swift; sourceTree = "<group>"; };
+		B1010026000000000000A001 /* DataSharingConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSharingConsentView.swift; sourceTree = "<group>"; };
+		B1010027000000000000A001 /* SceneChangeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneChangeDetector.swift; sourceTree = "<group>"; };
+		B1010028000000000000A001 /* ScreenWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenWatcher.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3010001000000000000A001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B401000B000000000000A001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B101001C000000000000A001 /* ar */,
+				B101001D000000000000A001 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin PBXGroup section */
+		B4010001000000000000A001 = {
+			isa = PBXGroup;
+			children = (
+				B4010002000000000000A001 /* VocaVision */,
+				B4010050000000000000A001 /* Configuration */,
+				B4010003000000000000A001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4010050000000000000A001 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B1010050000000000000A001 /* Signing.xcconfig */,
+				B1010051000000000000A001 /* Local.example.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		B4010002000000000000A001 /* VocaVision */ = {
+			isa = PBXGroup;
+			children = (
+				B1010001000000000000A001 /* VocaVisionApp.swift */,
+				B1010002000000000000A001 /* RootView.swift */,
+				B101001B000000000000A001 /* L10n.swift */,
+				B4010004000000000000A001 /* Theme */,
+				B4010005000000000000A001 /* Onboarding */,
+				B4010006000000000000A001 /* Home */,
+				B4010007000000000000A001 /* Settings */,
+				B4010008000000000000A001 /* Call */,
+				B4010009000000000000A001 /* Services */,
+				B1010010000000000000A001 /* Assets.xcassets */,
+				B1010012000000000000A001 /* Info.plist */,
+				B1010030000000000000A001 /* PrivacyInfo.xcprivacy */,
+				B401000B000000000000A001 /* InfoPlist.strings */,
+				B401000A000000000000A001 /* Preview Content */,
+			);
+			path = VocaVision;
+			sourceTree = "<group>";
+		};
+		B4010003000000000000A001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1010013000000000000A001 /* VocaVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4010004000000000000A001 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B1010003000000000000A001 /* AppTheme.swift */,
+				B1010025000000000000A001 /* Announce.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		B4010005000000000000A001 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B1010004000000000000A001 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B4010006000000000000A001 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1010005000000000000A001 /* HomeView.swift */,
+				B1010026000000000000A001 /* DataSharingConsentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4010007000000000000A001 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B1010006000000000000A001 /* SettingsView.swift */,
+				B1010007000000000000A001 /* APIKeyStore.swift */,
+				B1010017000000000000A001 /* DiagnosticsView.swift */,
+				B1010019000000000000A001 /* Customization.swift */,
+				B101001A000000000000A001 /* CustomizationViews.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B4010008000000000000A001 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				B1010008000000000000A001 /* CallView.swift */,
+				B1010009000000000000A001 /* CameraPreviewView.swift */,
+				B101000A000000000000A001 /* CallViewModel.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		B4010009000000000000A001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B101000B000000000000A001 /* CameraService.swift */,
+				B101000C000000000000A001 /* MotionService.swift */,
+				B101000D000000000000A001 /* CallAudioEngine.swift */,
+				B101000E000000000000A001 /* GeminiClient.swift */,
+				B1010015000000000000A001 /* GeminiLiveClient.swift */,
+				B101000F000000000000A001 /* SpeechFeedbackOrchestrator.swift */,
+				B1010014000000000000A001 /* Permissions.swift */,
+				B1010016000000000000A001 /* DiagnosticsLog.swift */,
+				B1010020000000000000A001 /* PlaybackRingBuffer.swift */,
+				B1010021000000000000A001 /* MicPipeline.swift */,
+				B1010022000000000000A001 /* LiveMessages.swift */,
+				B1010023000000000000A001 /* LiveSocket.swift */,
+				B1010041000000000000A001 /* VoiceDirectory.swift */,
+				B1010024000000000000A001 /* CallSessionController.swift */,
+				B1010027000000000000A001 /* SceneChangeDetector.swift */,
+				B1010028000000000000A001 /* ScreenWatcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B401000A000000000000A001 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1010011000000000000A001 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5010001000000000000A001 /* VocaVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7010002000000000000A001 /* Build configuration list for PBXNativeTarget "VocaVision" */;
+			buildPhases = (
+				B6010001000000000000A001 /* Sources */,
+				B3010001000000000000A001 /* Frameworks */,
+				B6010002000000000000A001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocaVision;
+			productName = VocaVision;
+			productReference = B1010013000000000000A001 /* VocaVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8010001000000000000A001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					B5010001000000000000A001 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 2700;
+					};
+				};
+			};
+			buildConfigurationList = B7010001000000000000A001 /* Build configuration list for PBXProject "VocaVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				Base,
+			);
+			mainGroup = B4010001000000000000A001;
+			productRefGroup = B4010003000000000000A001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5010001000000000000A001 /* VocaVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6010002000000000000A001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2010011000000000000A001 /* Preview Assets.xcassets in Resources */,
+				B2010010000000000000A001 /* Assets.xcassets in Resources */,
+				B201001A000000000000A001 /* InfoPlist.strings in Resources */,
+				B2010030000000000000A001 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6010001000000000000A001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2010002000000000000A001 /* RootView.swift in Sources */,
+				B2010001000000000000A001 /* VocaVisionApp.swift in Sources */,
+				B2010019000000000000A001 /* L10n.swift in Sources */,
+				B2010003000000000000A001 /* AppTheme.swift in Sources */,
+				B2010025000000000000A001 /* Announce.swift in Sources */,
+				B2010004000000000000A001 /* OnboardingView.swift in Sources */,
+				B2010005000000000000A001 /* HomeView.swift in Sources */,
+				B2010026000000000000A001 /* DataSharingConsentView.swift in Sources */,
+				B2010006000000000000A001 /* SettingsView.swift in Sources */,
+				B2010007000000000000A001 /* APIKeyStore.swift in Sources */,
+				B2010008000000000000A001 /* CallView.swift in Sources */,
+				B2010009000000000000A001 /* CameraPreviewView.swift in Sources */,
+				B201000A000000000000A001 /* CallViewModel.swift in Sources */,
+				B201000B000000000000A001 /* CameraService.swift in Sources */,
+				B201000C000000000000A001 /* MotionService.swift in Sources */,
+				B201000D000000000000A001 /* CallAudioEngine.swift in Sources */,
+				B201000E000000000000A001 /* GeminiClient.swift in Sources */,
+				B201000F000000000000A001 /* SpeechFeedbackOrchestrator.swift in Sources */,
+				B2010012000000000000A001 /* Permissions.swift in Sources */,
+				B2010013000000000000A001 /* GeminiLiveClient.swift in Sources */,
+				B2010014000000000000A001 /* DiagnosticsLog.swift in Sources */,
+				B2010015000000000000A001 /* DiagnosticsView.swift in Sources */,
+				B2010017000000000000A001 /* Customization.swift in Sources */,
+				B2010018000000000000A001 /* CustomizationViews.swift in Sources */,
+				B2010020000000000000A001 /* PlaybackRingBuffer.swift in Sources */,
+				B2010021000000000000A001 /* MicPipeline.swift in Sources */,
+				B2010022000000000000A001 /* LiveMessages.swift in Sources */,
+				B2010023000000000000A001 /* LiveSocket.swift in Sources */,
+				B2010041000000000000A001 /* VoiceDirectory.swift in Sources */,
+				B2010024000000000000A001 /* CallSessionController.swift in Sources */,
+				B2010027000000000000A001 /* SceneChangeDetector.swift in Sources */,
+				B2010028000000000000A001 /* ScreenWatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9010001000000000000A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9010002000000000000A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9010003000000000000A001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1010050000000000000A001 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_REQUIRED = YES;
+				"CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]" = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"VocaVision/Preview Content\"";
+				"DEVELOPMENT_TEAM[sdk=iphonesimulator*]" = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_UIDesignRequiresCompatibility = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VocaVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_framework",
+					LiveCommunicationKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vocavision.VocaVision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B9010004000000000000A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1010050000000000000A001 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGNING_REQUIRED = YES;
+				"CODE_SIGNING_REQUIRED[sdk=iphonesimulator*]" = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"VocaVision/Preview Content\"";
+				"DEVELOPMENT_TEAM[sdk=iphonesimulator*]" = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_UIDesignRequiresCompatibility = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VocaVision/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_framework",
+					LiveCommunicationKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vocavision.VocaVision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7010001000000000000A001 /* Build configuration list for PBXProject "VocaVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9010001000000000000A001 /* Debug */,
+				B9010002000000000000A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7010002000000000000A001 /* Build configuration list for PBXNativeTarget "VocaVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9010003000000000000A001 /* Debug */,
+				B9010004000000000000A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8010001000000000000A001 /* Project object */;
+}
