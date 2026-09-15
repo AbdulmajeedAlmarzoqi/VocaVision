@@ -1,14 +1,11 @@
 ---
 name: Feature request
-about: Suggest something the app should do
+about: Something the app should do
 title: ''
 labels: enhancement
 assignees: ''
 ---
 
-**The problem you are trying to solve**
+What you're trying to do:
 
-**How you imagine it working**
-
-**How it should sound with VoiceOver**
-VocaVision is used mostly by ear. Describe what the user hears, not what they see.
+How you'd want it to work, and what it should sound like with VoiceOver:
