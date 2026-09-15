@@ -2,11 +2,11 @@
 
 **Effective date: 15 September 2026**
 
-VocaVision is an iPhone app that lets blind and low-vision users hold a voice call with an assistant that describes what the camera sees. This page explains exactly what the app does with your data. The short version: nothing leaves your phone except what you deliberately send to Google's Gemini API with your own key, and we (the app's maintainers) never see any of it.
+VocaVision is an iPhone app that lets blind and low-vision users hold a voice call with an assistant that describes what the camera sees. This is what the app does with your data. Short version: nothing leaves your phone except what goes to Google's Gemini API under your own key, and I never see any of it.
 
 ## What the app collects
 
-VocaVision has no server, no user accounts, no analytics SDK, no crash reporter and no advertising. The maintainers do not collect, receive or store any data about you.
+VocaVision has no server, no accounts, no analytics SDK, no crash reporter and no ads. I don't collect, receive or store anything about you.
 
 ## What stays on your phone
 
@@ -48,4 +48,4 @@ Changes to this policy are published in this repository. The effective date at t
 
 ## Contact
 
-Questions about privacy can be raised by opening an issue in this repository.
+Open an issue in this repository.

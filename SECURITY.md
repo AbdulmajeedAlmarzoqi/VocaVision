@@ -2,11 +2,11 @@
 
 ## Reporting a vulnerability
 
-Please do not open a public issue for security problems. Use GitHub's private vulnerability reporting instead: go to the **Security** tab of this repository and choose **Report a vulnerability**. You will get a reply within a week.
+Don't open a public issue for security problems. Use the **Security** tab → **Report a vulnerability** and I'll get back to you within a week.
 
 ## What counts
 
-Anything that could expose a user's API key, audio, camera frames or transcripts to a party other than Google's Gemini API, or that lets an attacker act on a user's behalf. Bugs in the on-device change detection are not security issues; open a normal issue for those.
+Anything that could expose a user's API key, audio, camera frames or transcripts to anyone other than Google's Gemini API. Bugs in the change detection are normal issues.
 
 ## How the app handles secrets
 
