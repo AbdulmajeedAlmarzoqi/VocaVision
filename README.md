@@ -4,6 +4,12 @@
 
 iPhone app for blind users. You start a voice call, point the camera at something, and the assistant tells you what's there, in your own dialect. Built around VoiceOver from day one. Runs on your own Gemini API key, no server in between.
 
+## Try it
+
+The public beta is on TestFlight: **https://testflight.apple.com/join/PJptG4Eh**
+
+You need an iPhone on iOS 26 or later and a free Gemini API key from [AI Studio](https://aistudio.google.com/apikey); the app asks for it on first launch. Feedback through TestFlight or the issues here, whichever you prefer.
+
 ## What it does
 
 - Point and ask. "What's on the desk?", "read this", "which option is selected?"
